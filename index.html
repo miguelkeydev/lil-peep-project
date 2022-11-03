@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Lil, Peep">
+        <meta name="description" content="A webpage about Lil Peep, his life, discography and more interesting data about him. Let's meet Gus!">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="MiguelKeyDev">
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <title>Lil Peep</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1 class="heading1"><span class="lil">Lil</span> Peep</h1>
+            </header>
+            <div> <!--We're creating a couple forms down here-->
+                <section>
+                    <h3>Enter your birthday and participate for a free ticket!</h3>
+                    <form action=""> 
+                        <label for="birthday">
+                            <span>Your birthday</span>
+                            <input type="datetime-local" id="birthday" name="birthday">
+                        </label>
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
+                
+                <section>
+                    <h3>Schedule your ticket for his show!</h3>
+                    <form action="" autocomplete="one-time-code" target="_self">
+                        <label for="name">
+                            <span>What's your name?</span>
+                            <input type="text" name="name" id="name" autocomplete="name" placeholder="Write your name" required>
+                        </label>
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
+            </div>
+            <div>
+                <ul>
+                    <h3>Albums</h3>
+                    <section>
+                        <li>
+                            <p><mark>Crybaby</mark></p> <!--Crybaby Album-->
+                        </li>
+                        <figure>
+                            <a href="https://open.spotify.com/album/6ay4qFjg5VgZFqJmiGcIIm" target="_blank">
+                                <img
+                                    src="./Imgs/crybaby.png"
+                                    alt="Crybaby Album Cover; A drawing of a white bird crying while holding a ribbon that says: Cry Baby"
+                                    width="420">
+                            </a>
+                            <figcaption><b><i><small>Crybaby Album Cover</small></i></b></figcaption>
+                        </figure>
+                        <aside>
+                            <label for="crybaby-songs"> 
+                                <p>What's your favorite song from this album?</p>
+                                <select id="crybaby-songs" name="crybaby-songs">
+                                    <option value="crybaby">crybaby</option>
+                                    <option value="lil jeep">lil jeep</option>
+                                    <option value="yesterday">yesterday</option>
+                                    <option value="absolute in doubt">absolute in doubt</option>
+                                    <option value="ghost girl">ghost girl</option>
+                                    <option value="big city blues">big city blues</option>
+                                    <option value="skyscrapers">skyscrapers</option>
+                                    <option value="nineteen">nineteen</option>
+                                    <option value="white tee">white tee</option>
+                                    <option value="driveway">driveway</option>
+                                </select>
+                                <input type="submit" value="Favorite Song"><br><hr>
+                            </label>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <li>
+                            <p><mark>Hellboy</mark></p> <!--Hellboy Album-->
+                        </li>
+                        <figure>
+                            <a href="https://open.spotify.com/album/3PGFdp8MUJ25eJjUl0O58X" target="_blank">
+                                <img
+                                src="./Imgs/hellboy.png"
+                                alt="Hellboy Album Cover; Lil Peep with pink hair, wearing a red New Jersey t-shirt, and looking down while standing in front of a red door"
+                                width="420">
+                            </a>
+                            <figcaption><b><i><small>Hellboy Album Cover</small></i></b></figcaption>
+                        </figure>
+                        <aside>
+                            <label for="hellboy-song"></label>
+                            <p>What's your favorite song from this album?</p>
+                            <input type="text" list="hellboy-songs" id="hellboy-song" name="hellboy-songs">
+                            <datalist id="hellboy-songs">
+                                <option value="bellboy"></option>
+                                <option value="drive by"></option>
+                                <option value="OMFG"></option>
+                                <option value="the song they played (when i crashed into the wall)"></option>
+                                <option value="fucked up"></option>
+                                <option value="cobain"></option>
+                                <option value="gucci mane"></option>
+                                <option value="interlude"></option>
+                                <option value="worlds away"></option>
+                                <option value="red drop shawty"></option>
+                                <option value="girls"></option>
+                                <option value="nose ring"></option>
+                                <option value="we think too much"></option>
+                                <option value="the last thing i wanna do"></option>
+                                <option value="walk away as the door slams"></option>
+                                <option value="move on, be strong"></option>
+                            </datalist>
+                            <button type="submit">Favorite Song</button><br><hr>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <li>
+                            <p><mark>Come Over When You're Sober Pt.1</mark></p> <!--Come Over When You're Sober Pt.1 Album-->
+                        </li>
+                        <figure>
+                            <a href="https://open.spotify.com/album/33TJ52PuwenGmysJrwMGCe" target="_blank">
+                                <img
+                                src="./Imgs/come over pt1.png"
+                                alt="Come Over When You're Sober Pt.1 Album Cover; Lil Peep lying on a messy bed that has 'Come Over When You're Sober' written on it with lipstick. He's shirtless, showing off his multiple tattoos, and smoking a cigarette"
+                                width="420">
+                            </a>
+                            <figcaption><b><i><small>Come Over When You're Sober Pt.1 Album Cover</small></i></b></figcaption>
+                        </figure>
+                        <aside>
+                            <label for="COWYSpt1-songs">
+                                <p>What's your favorite song from this album?</p>
+                                <select id="COWYSpt1-songs" name="COWYSpt1-songs">
+                                    <option value="Benz Truck">Benz Truck</option>
+                                    <option value="Save That Shit">Save That Shit</option>
+                                    <option value="Awful Things">Save That Shit</option>
+                                    <option value="U said">U said</option>
+                                    <option value="Better Off (Dying)">Better Off (Dying)</option>
+                                    <option value="The Brightside">The Brightside</option>
+                                    <option value="Problems">Problems</option>
+                                </select>
+                                <input type="submit" value="Favorite Song"><br><hr>
+                            </label>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <li>
+                            <p><mark>Come Over When You're Sober Pt.2</mark></p> <!--Come Over When You're Sober Pt.2 Album-->
+                        </li>
+                        <figure>
+                            <a href="https://open.spotify.com/album/52JymrguPgkmmwLaWIusst" target="_blank">
+                                <img
+                                src="./Imgs/come over p2.png"
+                                alt="Come Over When You're Sober Pt.2 Album Cover; Lil Peep by a window, looking through it, leaning against a wall that has some funny pictures and 'Come Over When You're Sober' written on it. He's shirtless, showing off his multiple tattoos"
+                                    width="420">
+                            </a>
+                            <figcaption><b><i><small>Come Over When You're Sober Pt.2 Album Cover</small></i></b></figcaption>
+                        </figure>
+                        <label for="COWYSpt2-song"></label>
+                        <p>What's your favorite song from this album?</p>
+                        <input type="text" list="COWYSpt2-songs" id="COWYSpt2-song" name="COWYSpt2-songs">
+                        <datalist id="COWYSpt2-songs">
+                            <option value="Broken Smile (My All)"></option>
+                            <option value="Runaway"></option>
+                            <option value="Sex with My Ex"></option>
+                            <option value="Cry Alone"></option>
+                            <option value="Leanin'"></option>
+                            <option value="16 Lines"></option>
+                            <option value="Life is Beautiful"></option>
+                            <option value="Hate Me"></option>
+                            <option value="IDGAF"></option>
+                            <option value="White Girl"></option>
+                            <option value="Fingers"></option>
+                            <option value="Falling Down"></option>
+                            <option value="Sunlight On Your Skin"></option>
+                        </datalist>
+                        <button type="submit">Favorite Song</button><br><hr>
+                    </section>
+
+                    <section>
+                        <li>
+                            <p><mark>Everybody's Everything</mark></p> <!--Everybody's Everything Album-->
+                        </li>
+                        <figure>
+                            <a href="https://open.spotify.com/album/1r1Xt6oUnY3VMYbQb1U7CO" target="_blank">
+                                <img
+                                src="./Imgs/everybodyseverything.png"
+                                alt="Everybody's Everything Album Cover; Lil Peep's face from the nose up, looking directly at the camera"
+                                width="420">
+                            </a>
+                            <figcaption><b><i><small>Everybody's Everything Album cover</small></i></b></figcaption>
+                        </figure>
+                        <label for="Everybody's-Everything-songs">
+                            <p>What's your favorite song from this album?</p>
+                            <select id="Everybody's-Everything-songs" name="Everybody's-Everything-songs">
+                                <option value="Broken Smile (My All)">Broken Smile (My All)</option>
+                                <option value="Runaway">Runaway</option>
+                                <option value="Sex with My Ex">Sex with My Ex</option>
+                                <option value="Cry Alone">Cry Alone</option>
+                                <option value="Leanin'">Leanin'</option>
+                                <option value="16 Lines">16 Lines</option>
+                                <option value="Life is Beautiful">Life is Beautiful</option>
+                                <option value="Hate Me">Hate Me</option>
+                                <option value="IDGAF">IDGAF</option>
+                                <option value="White Girl">White Girl</option>
+                                <option value="Fingers">Fingers</option>
+                                <option value="Falling Down">Falling Down</option>
+                                <option value="Sunlight On Your Skin">Sunlight On Your Skin</option>
+                            </select>
+                            <input type="submit" value="Favorite Song"><br><hr>
+                        </label>
+                    </section>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <footer>
+                <h3>Lil Peep's social media</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/lilpeep/" target="_blank" >
+                            <img src="./Imgs/ig.png" alt="Instagram logo" width="25">
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Lilpeep" target="_blank">
+                            <img src="./Imgs/twitter.png" alt="Twitter logo" width="25">
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/LilPeepofficial" target="_blank">
+                            <img src="./Imgs/yt.png" alt="YouTube logo" width="25">
+                            <span>Youtube</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/2kCcBybjl3SAtIcwdWpUe3" target="_blank">
+                            <img src="./Imgs/spotify.png" alt="Spotify logo" width="25">
+                            <span>Spotify</span>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </footer>
+    </body>
+</html>
