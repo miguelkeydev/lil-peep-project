@@ -1,7 +1,38 @@
-.lil {
-    color: hsl(325, 73%, 58%);
+.main-header__heading--lil {
+    color: rgb(226, 70, 161);
 }
 
-.heading1 {
+.main-header__heading {
     font-size: 70px;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 5px;
+    background-color: #212529;
+    height: 23px;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: rgb(226, 70, 161);
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: blueviolet;
+}
+
+.main-nav__item a:active {
+    color: pink;
+}
+
+.main-nav__item a::after {
+    content: " |";
 }
