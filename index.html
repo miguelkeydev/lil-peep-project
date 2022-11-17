@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="Lil, Peep">
+        <meta name="keywords" content="Lil, Peep, Hellboy">
         <meta name="description" content="A webpage about Lil Peep, his life, discography and more interesting data about him. Let's meet Gus!">
         <meta name="robots" content="index, follow">
         <meta name="author" content="MiguelKeyDev">
@@ -14,23 +14,23 @@
     <body>
         <main>
             <header>
-                <h1 class="main-header__heading"><span class="main-header__heading--lil">Lil</span> Peep</h1>
+                <h1 class="header__heading"><span class="header__heading--lil">Lil</span> Peep</h1>
                 <nav>
-                    <ul class="main-nav">
-                        <li class="main-nav__item"><a href="#">Home</a></li>
-                        <li class="main-nav__item"><a href="#">Biography</a></li>
-                        <li class="main-nav__item"><a href="#">Albums</a></li>
-                        <li class="main-nav__item"><a href="#">EP's</a></li>
-                        <li class="main-nav__item"><a href="#">Best Known Songs</a></li>
-                        <li class="main-nav__item"><a href="#">Pictures</a></li>
+                    <ul class="header__nav">
+                        <li class="header__nav__item"><a href="#">Home</a></li>
+                        <li class="header__nav__item"><a href="#">Biography</a></li>
+                        <li class="header__nav__item"><a href="#">Albums</a></li>
+                        <li class="header__nav__item"><a href="#">EP's</a></li>
+                        <li class="header__nav__item"><a href="#">Best Known Songs</a></li>
+                        <li class="header__nav__item"><a href="#">Pictures</a></li>
                     </ul>
                 </nav>
-            </header>
+            </header> <hr>
 
-            <div class="albums">
+            <section class="albums">
                 <ul>
                     <h3>Albums</h3>
-                    <section>
+                    <article>
                         <li>
                             <p><mark>Crybaby</mark></p> <!--Crybaby Album-->
                         </li>
@@ -61,9 +61,9 @@
                                 <input type="submit" value="Favorite Song"><br><hr>
                             </label>
                         </aside>
-                    </section>
+                    </article>
 
-                    <section>
+                    <article>
                         <li>
                             <p><mark>Hellboy</mark></p> <!--Hellboy Album-->
                         </li>
@@ -81,7 +81,7 @@
                             <p>What's your favorite song from this album?</p>
                             <input type="text" id="albums-hellboy__input" name="hellboy-song" list="albums-hellboy__songs">
                             <datalist id="albums-hellboy__songs">
-                                <option value="bellboy"></option>
+                                <option value="hellboy"></option>
                                 <option value="drive by"></option>
                                 <option value="OMFG"></option>
                                 <option value="the song they played (when i crashed into the wall)"></option>
@@ -100,9 +100,9 @@
                             </datalist>
                             <button type="submit">Favorite Song</button><br><hr>
                         </aside>
-                    </section>
+                    </article>
 
-                    <section>
+                    <article>
                         <li>
                             <p><mark>Come Over When You're Sober Pt.1</mark></p> <!--Come Over When You're Sober Pt.1 Album-->
                         </li>
@@ -130,9 +130,9 @@
                                 <input type="submit" value="Favorite Song"><br><hr>
                             </label>
                         </aside>
-                    </section>
+                    </article>
 
-                    <section>
+                    <article>
                         <li>
                             <p><mark>Come Over When You're Sober Pt.2</mark></p> <!--Come Over When You're Sober Pt.2 Album-->
                         </li>
@@ -164,9 +164,9 @@
                             <option value="Sunlight On Your Skin"></option>
                         </datalist>
                         <button type="submit">Favorite Song</button><br><hr>
-                    </section>
+                    </article>
 
-                    <section>
+                    <article>
                         <li>
                             <p><mark>Everybody's Everything</mark></p> <!--Everybody's Everything Album-->
                         </li>
@@ -196,42 +196,40 @@
                                 <option value="Falling Down">Falling Down</option>
                                 <option value="Sunlight On Your Skin">Sunlight On Your Skin</option>
                             </select>
-                            <input type="submit" value="Favorite Song"><br><hr>
+                            <input type="submit" value="Favorite Song"><br>
                         </label>
-                    </section>
-                </ul>
-            </div>
+                    </article>
+                </ul> <hr>
+            </section>
         </main>
         <footer>
-            <footer>
-                <h3>Lil Peep's social media</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/lilpeep/" target="_blank" >
-                            <img src="./Imgs/ig.png" alt="Instagram logo" width="25">
-                            <span>Instagram</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/Lilpeep" target="_blank">
-                            <img src="./Imgs/twitter.png" alt="Twitter logo" width="25">
-                            <span>Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/c/LilPeepofficial" target="_blank">
-                            <img src="./Imgs/yt.png" alt="YouTube logo" width="25">
-                            <span>Youtube</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://open.spotify.com/artist/2kCcBybjl3SAtIcwdWpUe3" target="_blank">
-                            <img src="./Imgs/spotify.png" alt="Spotify logo" width="25">
-                            <span>Spotify</span>
-                        </a>
-                    </li>
-                </ul>
-            </footer>
+            <h3>Lil Peep's social media</h3>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/lilpeep/" target="_blank" >
+                        <img src="./Imgs/ig.png" alt="Instagram logo" width="25">
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Lilpeep" target="_blank">
+                        <img src="./Imgs/twitter.png" alt="Twitter logo" width="25">
+                        <span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/c/LilPeepofficial" target="_blank">
+                        <img src="./Imgs/yt.png" alt="YouTube logo" width="25">
+                        <span>Youtube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/2kCcBybjl3SAtIcwdWpUe3" target="_blank">
+                        <img src="./Imgs/spotify.png" alt="Spotify logo" width="25">
+                        <span>Spotify</span>
+                    </a>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
