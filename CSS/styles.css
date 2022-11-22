@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'Peep';
+    src: url(fonts/OverObsessedGirlfriend.ttf) format('truetype');
+
+}
+
 .header__heading {
-    font-size: 70px;
+    font-size: 120px;
+    font-family: Peep;
 }
 
 .color-pink {
