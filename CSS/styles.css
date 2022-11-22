@@ -1,9 +1,9 @@
-.header__heading--color-pink {
-    color: rgb(226, 70, 161);
-}
-
 .header__heading {
     font-size: 70px;
+}
+
+.color-pink {
+    color: rgb(226, 70, 161);
 }
 
 .header__nav {
@@ -35,4 +35,40 @@
 
 .header__nav__item a::after {
     content: " |";
+}
+
+.albums__list {
+    list-style: none;
+}
+
+.albums__title {
+    color: #212529;
+    text-transform: uppercase;
+}
+
+.albums__select {
+    background: radial-gradient(rgb(226, 70, 161), #616263);
+    font-weight: bold;
+    color: #212529;
+    border: 5px;
+    border-radius: 3px;
+}
+
+.albums__select option {
+    background-color: #212529;
+    color: rgb(226, 70, 161);
+}
+
+.albums__select option:checked {
+    background-color: rgb(226, 70, 161);
+    color: #212529;
+    font-weight: bold;
+}
+
+.favorite-song {
+    background: radial-gradient(rgb(226, 70, 161), #616263);
+    color: #212529;
+    border-radius: 5px;
+    border-color: #212529;
+    font-weight: bold;
 }

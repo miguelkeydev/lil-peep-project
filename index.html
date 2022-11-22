@@ -14,7 +14,7 @@
     <body>
         <main>
             <header class="header">
-                <h1 class="header__heading"><span class="header__heading--color-pink">Lil</span> Peep</h1>
+                <h1 class="header__heading"><span class="color-pink">LIL</span> PEEP</h1>
                 <nav>
                     <ul class="header__nav">
                         <li class="header__nav__item"><a href="#">Home</a></li>
@@ -28,11 +28,11 @@
             </header> <hr>
 
             <section class="albums">
-                <ul>
+                <ul class="albums__list">
                     <h3>Albums</h3>
                     <article>
                         <li>
-                            <p><mark>Crybaby</mark></p> <!--Crybaby Album-->
+                            <h2 class="albums__title">Crybaby</h2> <!--Crybaby Album-->
                         </li>
                         <figure>
                             <a href="https://open.spotify.com/album/6ay4qFjg5VgZFqJmiGcIIm" target="_blank">
@@ -44,9 +44,9 @@
                             <figcaption><b><i><small>Crybaby Album Cover</small></i></b></figcaption>
                         </figure>
                         <aside>
-                            <label for="albums-crybaby__select"> 
+                            <label for="albums-crybaby__songs"> 
                                 <p>What's your favorite song from this album?</p>
-                                <select id="albums-crybaby__select" name="crybaby-song">
+                                <select class="albums__select" id="albums-crybaby__songs" name="crybaby-song">
                                     <option value="crybaby">crybaby</option>
                                     <option value="lil jeep">lil jeep</option>
                                     <option value="yesterday">yesterday</option>
@@ -58,14 +58,14 @@
                                     <option value="white tee">white tee</option>
                                     <option value="driveway">driveway</option>
                                 </select>
-                                <input type="submit" value="Favorite Song"><br><hr>
+                                <input class="favorite-song" type="submit" value="Favorite Song"><br><hr>
                             </label>
                         </aside>
                     </article>
 
                     <article>
                         <li>
-                            <p><mark>Hellboy</mark></p> <!--Hellboy Album-->
+                            <h2 class="albums__title">Hellboy</h2> <!--Hellboy Album-->
                         </li>
                         <figure>
                             <a href="https://open.spotify.com/album/3PGFdp8MUJ25eJjUl0O58X" target="_blank">
@@ -77,34 +77,34 @@
                             <figcaption><b><i><small>Hellboy Album Cover</small></i></b></figcaption>
                         </figure>
                         <aside>
-                            <label for="albums-hellboy__input"></label>
-                            <p>What's your favorite song from this album?</p>
-                            <input type="text" id="albums-hellboy__input" name="hellboy-song" list="albums-hellboy__songs">
-                            <datalist id="albums-hellboy__songs">
-                                <option value="hellboy"></option>
-                                <option value="drive by"></option>
-                                <option value="OMFG"></option>
-                                <option value="the song they played (when i crashed into the wall)"></option>
-                                <option value="fucked up"></option>
-                                <option value="cobain"></option>
-                                <option value="gucci mane"></option>
-                                <option value="interlude"></option>
-                                <option value="worlds away"></option>
-                                <option value="red drop shawty"></option>
-                                <option value="girls"></option>
-                                <option value="nose ring"></option>
-                                <option value="we think too much"></option>
-                                <option value="the last thing i wanna do"></option>
-                                <option value="walk away as the door slams"></option>
-                                <option value="move on, be strong"></option>
-                            </datalist>
-                            <button type="submit">Favorite Song</button><br><hr>
+                            <label for="albums-hellboy__songs">
+                                <p>What's your favorite song from this album?</p>
+                                <select class="albums__select" id="albums-hellboy__songs">
+                                    <option value="hellboy">hellboy</option>
+                                    <option value="drive by">drive by</option>
+                                    <option value="OMFG">OMFG</option>
+                                    <option value="the song they played">the song they played</option>
+                                    <option value="fucked up">fucked up</option>
+                                    <option value="cobain">cobain</option>
+                                    <option value="gucci mane">gucci mane</option>
+                                    <option value="interlude">interlude</option>
+                                    <option value="worlds away">worlds away</option>
+                                    <option value="red drop shawty">red drop shawty</option>
+                                    <option value="girls">girls</option>
+                                    <option value="nose ring">nose ring</option>
+                                    <option value="we think too much">we think too much</option>
+                                    <option value="the last thing i wanna do">the last thing i wanna do</option>
+                                    <option value="walk away as the door slams">walk away as the door slams</option>
+                                    <option value="move on, be strong">move on, be strong</option>
+                                </select>
+                            </label>
+                            <button class="favorite-song" type="submit">Favorite Song</button><br><hr>
                         </aside>
                     </article>
 
                     <article>
                         <li>
-                            <p><mark>Come Over When You're Sober Pt.1</mark></p> <!--Come Over When You're Sober Pt.1 Album-->
+                            <h2 class="albums__title">Come Over When You're Sober Pt.1</h2> <!--Come Over When You're Sober Pt.1 Album-->
                         </li>
                         <figure>
                             <a href="https://open.spotify.com/album/33TJ52PuwenGmysJrwMGCe" target="_blank">
@@ -116,9 +116,9 @@
                             <figcaption><b><i><small>Come Over When You're Sober Pt.1 Album Cover</small></i></b></figcaption>
                         </figure>
                         <aside>
-                            <label for="albums-cowyspt1__select">
+                            <label for="albums-cowyspt1__songs">
                                 <p>What's your favorite song from this album?</p>
-                                <select id="albums-cowyspt1__select" name="cowyspt1-song">
+                                <select class="albums__select" id="albums-cowyspt1__songs" name="cowyspt1-song">
                                     <option value="Benz Truck">Benz Truck</option>
                                     <option value="Save That Shit">Save That Shit</option>
                                     <option value="Awful Things">Save That Shit</option>
@@ -127,14 +127,14 @@
                                     <option value="The Brightside">The Brightside</option>
                                     <option value="Problems">Problems</option>
                                 </select>
-                                <input type="submit" value="Favorite Song"><br><hr>
+                                <input class="favorite-song" type="submit" value="Favorite Song"><br><hr>
                             </label>
                         </aside>
                     </article>
 
                     <article>
                         <li>
-                            <p><mark>Come Over When You're Sober Pt.2</mark></p> <!--Come Over When You're Sober Pt.2 Album-->
+                            <h2 class="albums__title">Come Over When You're Sober Pt.2</h2> <!--Come Over When You're Sober Pt.2 Album-->
                         </li>
                         <figure>
                             <a href="https://open.spotify.com/album/52JymrguPgkmmwLaWIusst" target="_blank">
@@ -145,30 +145,30 @@
                             </a>
                             <figcaption><b><i><small>Come Over When You're Sober Pt.2 Album Cover</small></i></b></figcaption>
                         </figure>
-                        <label for="albums-cowyspt2__input"></label>
-                        <p>What's your favorite song from this album?</p>
-                        <input type="text" id="albums-cowyspt2__input" name="cowyspt2-song" list="albums-cowyspt2__songs">
-                        <datalist id="albums-cowyspt2__songs">
-                            <option value="Broken Smile (My All)"></option>
-                            <option value="Runaway"></option>
-                            <option value="Sex with My Ex"></option>
-                            <option value="Cry Alone"></option>
-                            <option value="Leanin'"></option>
-                            <option value="16 Lines"></option>
-                            <option value="Life is Beautiful"></option>
-                            <option value="Hate Me"></option>
-                            <option value="IDGAF"></option>
-                            <option value="White Girl"></option>
-                            <option value="Fingers"></option>
-                            <option value="Falling Down"></option>
-                            <option value="Sunlight On Your Skin"></option>
-                        </datalist>
-                        <button type="submit">Favorite Song</button><br><hr>
+                        <label for="albums-cowyspt2__songs">
+                            <p>What's your favorite song from this album?</p>
+                            <select class="albums__select" id="albums-cowyspt2__songs">
+                                <option value="Broken Smile">Broken Smile</option>
+                                <option value="Runaway">Runaway</option>
+                                <option value="Sex with My Ex">Sex with My Ex</option>
+                                <option value="Cry Alone">Cry Alone</option>
+                                <option value="Leanin'">Leanin'</option>
+                                <option value="16 Lines">16 Lines</option>
+                                <option value="Life is Beautiful">Life is Beautiful</option>
+                                <option value="Hate Me">Hate Me</option>
+                                <option value="IDGAF">IDGAF</option>
+                                <option value="White Girl">IDGAF</option>
+                                <option value="Fingers">Fingers</option>
+                                <option value="Falling Down">Falling Down</option>
+                                <option value="Sunlight On Your Skin">Sunlight On Your Skin</option>
+                            </select>
+                        </label>
+                        <button class="favorite-song" type="submit">Favorite Song</button><br><hr>
                     </article>
 
                     <article>
                         <li>
-                            <p><mark>Everybody's Everything</mark></p> <!--Everybody's Everything Album-->
+                            <h2 class="albums__title">Everybody's Everything</h2> <!--Everybody's Everything Album-->
                         </li>
                         <figure>
                             <a href="https://open.spotify.com/album/1r1Xt6oUnY3VMYbQb1U7CO" target="_blank">
@@ -179,9 +179,9 @@
                             </a>
                             <figcaption><b><i><small>Everybody's Everything Album cover</small></i></b></figcaption>
                         </figure>
-                        <label for="albums-everybody's_everything__select">
+                        <label for="albums-everybodys_everything__songs">
                             <p>What's your favorite song from this album?</p>
-                            <select id="albums-everybody's_everything__select" name="everybody's_everything-song">
+                            <select class="albums__select" id="albums-everybodys_everything__songs" name="everybody's_everything-song">
                                 <option value="Broken Smile (My All)">Broken Smile (My All)</option>
                                 <option value="Runaway">Runaway</option>
                                 <option value="Sex with My Ex">Sex with My Ex</option>
@@ -196,7 +196,7 @@
                                 <option value="Falling Down">Falling Down</option>
                                 <option value="Sunlight On Your Skin">Sunlight On Your Skin</option>
                             </select>
-                            <input type="submit" value="Favorite Song"><br>
+                            <input class="favorite-song" type="submit" value="Favorite Song"><br>
                         </label>
                     </article>
                 </ul> <hr>
