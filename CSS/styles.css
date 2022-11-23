@@ -1,12 +1,25 @@
 @font-face {
-    font-family: 'Peep';
-    src: url(fonts/OverObsessedGirlfriend.ttf) format('truetype');
+    font-family: 'Peep Title';
+    src: url(fonts/OverObsessedGirlfriend.ttf);
+}
 
+@font-face {
+    font-family: 'Goth';
+    src: url(fonts/Chomsky.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #edf2fb;
+    background: -webkit-linear-gradient(-45deg, #d7e3fc, #abc4ff);;
 }
 
 .header__heading {
+    font-family: 'Peep Title';
     font-size: 120px;
-    font-family: Peep;
+    text-align: center;
+    opacity: 0.75;
 }
 
 .color-pink {
@@ -50,7 +63,9 @@
 
 .albums__title {
     color: #212529;
-    text-transform: uppercase;
+    font-family: 'Goth';
+    font-size: 50px;
+    opacity: 0.75;
 }
 
 .albums__select {
