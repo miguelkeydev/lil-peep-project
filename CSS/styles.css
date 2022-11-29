@@ -9,33 +9,45 @@
     font-weight: bold;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background: #edf2fb;
-    background: -webkit-linear-gradient(-45deg, #d7e3fc, #abc4ff);;
+    background: -webkit-linear-gradient(-45deg, #d7e3fc, #abc4ff);
 }
 
 .header__heading {
     font-family: 'Peep Title';
     font-size: 120px;
+    width: 700px;
     text-align: center;
     opacity: 0.75;
-    border: 10px outset #212529;
+    border: 10px outset #000000ea;
     border-radius: 50px;
     padding: 15px;
     margin: 50px auto;
 }
 
 .color-pink {
-    color: rgb(226, 70, 161);
+    color: #e246a1;
 }
 
 .header__nav {
-    margin-top: 10px;
+    margin: 10px auto;
+    width: 658px;
+    height: auto;
     list-style: none;
+    text-align: center;
     padding-left: 5px;
     background-color: #22282e;
     height: 24px;
+    border: 4px outset #e246a1c5;
+    border-radius: 10px;
+    opacity: 95%;
 }
 
 .header__nav__item {
@@ -45,7 +57,7 @@ body {
 }
 
 .header__nav__item a {
-    color: rgb(226, 70, 161);
+    color: #e246a1;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
@@ -57,6 +69,7 @@ body {
 
 .header__nav__item a:active {
     color: pink;
+    font-size: 20px;
 }
 
 .header__nav__item a::after {
@@ -67,36 +80,89 @@ body {
     list-style: none;
 }
 
+h3 {
+    font-family: 'Peep Title';
+    font-size: 70px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    opacity: 75%;
+}
+
+h4 {
+    font-family: 'Peep Title';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: 75%;
+}
+
 .albums__title {
     color: #212529;
     font-family: 'Goth';
     font-size: 50px;
-    opacity: 0.75;
+    margin: 20px 0px 20px 50px;
+}
+
+.albums__image {
+    margin-left: 100px;
+}
+
+.albums__image__caption {
+    margin-left: 100px;
+    opacity: 60%;
+}
+
+.albums__question {
+    font-weight: bold;
+    color: #22282e;
+    margin: 30px 0px 15px 100px;
+    width: 420px;
+    text-align: center;
 }
 
 .albums__select {
-    background: radial-gradient(rgb(226, 70, 161), #616263);
+    background: radial-gradient(#e246a1, #616263);
     font-weight: bold;
     color: #212529;
     border: 5px;
     border-radius: 3px;
+    margin: 0px 0px 15px 175px;
 }
 
 .albums__select option {
-    background-color: #212529;
-    color: rgb(226, 70, 161);
+    background-color: #000000d2;
+    color: #e246a1;
+    font-weight: bold;
 }
 
 .albums__select option:checked {
-    background-color: rgb(226, 70, 161);
+    background-color: #e246a1;
     color: #212529;
     font-weight: bold;
 }
 
 .favorite-song {
-    background: radial-gradient(rgb(226, 70, 161), #616263);
+    background: radial-gradient(#e246a1, #616263);
     color: #212529;
     border-radius: 5px;
     border-color: #212529;
     font-weight: bold;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer a {
+    color: #000000d2;
+    padding: 10px;
+    text-decoration: none;
 }
