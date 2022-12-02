@@ -21,8 +21,9 @@ html {
 
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
     background: #edf2fb;
-    background: -webkit-linear-gradient(-45deg, #d7e3fc, #abc4ff);
+    background: -webkit-linear-gradient(-45deg, #ceabe4, #8255b6);
 }
 
 .header__heading {
@@ -49,6 +50,10 @@ body {
 
 .violet-shadow {
     text-shadow: #48079c 0.5rem 0 1.1rem;
+}
+
+.white-shadow {
+    text-shadow: wheat 0.1rem 0rem 1rem;
 }
 
 .header__nav {
@@ -130,7 +135,7 @@ h3 {
     width: 42rem;
     text-align: center;
     font-size: 1.8rem;
-    text-shadow: #212529 0.05rem 0rem 0.3rem;
+    color: #212529;
 }
 
 .albums__select {
@@ -187,4 +192,5 @@ footer a {
     color: #000000d2;
     padding: 1rem;
     text-decoration: none;
+    font-size: 1.5rem;
 }
