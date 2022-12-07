@@ -26,6 +26,11 @@ body {
     background: -webkit-linear-gradient(-45deg, #ceabe4, #8255b6);
 }
 
+.division {
+    border-color: #8255b6;
+    opacity: 50%;
+}
+
 .header__heading {
     font-family: 'Peep Title';
     font-size: 12rem;
