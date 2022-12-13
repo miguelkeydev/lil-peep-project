@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     background: #edf2fb;
     background: -webkit-linear-gradient(-45deg, #ceabe4, #8255b6);
@@ -41,13 +41,13 @@ body {
     font-family: 'Peep Title';
     font-size: 12rem;
     width: 70rem;
-    text-align: center;
-    opacity: 0.75;
+    padding: 1.5rem;
     border: 1rem inset #2a0b53;
     border-radius: 5rem;
-    padding: 1.5rem;
     margin: 5rem auto;
     text-shadow: #000000 0.5rem 0 1.1rem;
+    text-align: center;
+    opacity: 0.75;
 }
 
 .color-violet {
@@ -56,7 +56,6 @@ body {
 
 .color-pink {
     color: var(--fuchsia);
-    text-shadow: var(--black) 0.1rem 0 1rem;
 }
 
 .violet-shadow {
@@ -67,31 +66,34 @@ body {
     text-shadow: wheat 0.1rem 0rem 1rem;
 }
 
+.black-shadow {
+    text-shadow: var(--black) 0.1rem 0 1rem;
+}
+
 .header__nav {
-    margin: 1rem auto;
     width: 68rem;
-    height: auto;
-    list-style: none;
-    text-align: center;
+    height: 3.3rem;
     padding-left: 0.5rem;
-    background-color: #2b3138;
-    height: 3.4rem;
     border: 0.4rem outset var(--violet);
     border-radius: 1rem;
+    margin: 1rem auto;
+    background-color: #2b3138;
+    list-style: none;
+    text-align: center;
     opacity: 95%;
 }
 
 .header__nav__item {
-    display: inline-block;
     font-weight: bold;
     font-size: 1.6rem;
     margin: 0.2rem;
+    display: inline-block;
 }
 
 .header__nav__item a {
-    color: var(--fuchsia);
     padding: 0.5rem;
     border-radius: 0.2rem;
+    color: var(--fuchsia);
     text-decoration: none;
 }
 
@@ -115,19 +117,19 @@ body {
 h3 {
     font-family: 'Peep Title';
     font-size: 7rem;
-    text-align: center;
     margin-top: 3rem;
     margin-bottom: 5rem;
-    opacity: 75%;
     text-shadow: var(--fuchsia) 0.1rem 0 1rem;
+    text-align: center;
+    opacity: 75%;
 }
 
 .albums__title {
-    color: var(--black);
-    text-shadow: var(--fuchsia) 0.1rem 0 1rem;
     font-family: 'Goth';
     font-size: 5rem;
     margin: 2rem 0rem 2rem 5rem;
+    color: var(--black);
+    text-shadow: var(--fuchsia) 0.1rem 0 1rem;
 }
 
 .albums__image {
@@ -135,58 +137,57 @@ h3 {
 }
 
 .albums__image__caption {
+    font-size: 1.5rem;
     margin-left: 10rem;
     opacity: 60%;
-    font-size: 1.5rem;
 }
 
 .albums__question {
-    font-weight: bold;
-    margin: 3rem 0rem 1.5rem 10rem;
-    width: 42rem;
-    text-align: center;
     font-size: 1.8rem;
+    font-weight: bold;
+    width: 42rem;
+    margin: 3rem 0rem 1.5rem 10rem;
     color: var(--black);
+    text-align: center;
 }
 
 .albums__select {
-    background: radial-gradient(var(--fuchsia), #616263);
     font-weight: bold;
-    color: var(--black);
     border: 0.5rem;
     border-radius: 0.3rem;
     margin: 0rem 0rem 1.5rem 17.5rem;
+    color: var(--black);
+    background: radial-gradient(var(--fuchsia), #616263);
 }
 
 .albums__select option {
-    background-color: #000000d2;
-    color: var(--fuchsia);
     font-weight: bold;
+    color: var(--fuchsia);
+    background-color: #000000d2;
 }
 
 .albums__select option:checked {
-    background-color: var(--fuchsia);
-    color: var(--black);
     font-weight: bold;
+    color: var(--black);
+    background-color: var(--fuchsia);
 }
 
 .favorite-song {
-    background: radial-gradient(var(--fuchsia), #616263);
-    color: var(--black);
+    font-weight: bold;
     border-radius: 0.5rem;
     border-color: var(--black);
-    font-weight: bold;
+    color: var(--black);
+    background: radial-gradient(var(--fuchsia), #616263);
 }
 
 footer h4 {
     font-family: 'Peep Title';
     font-size: 4rem;
-    text-align: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    opacity: 75%;
-
     text-shadow: var(--fuchsia) 0.1rem 0 1rem;
+    text-align: center;
+    opacity: 75%;
 }
 
 footer ul {
@@ -194,14 +195,14 @@ footer ul {
 }
 
 footer li {
-    display: inline-block;
     font-weight: bold;
     margin: 1rem;
+    display: inline-block;
 }
 
 footer a {
-    color: #000000d2;
-    padding: 1rem;
-    text-decoration: none;
     font-size: 1.5rem;
+    padding: 1rem;
+    color: #000000d2;
+    text-decoration: none;
 }
