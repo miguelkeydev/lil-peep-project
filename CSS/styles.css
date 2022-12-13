@@ -1,3 +1,9 @@
+:root {
+    --violet: #48079c;
+    --fuchsia: #e246a1;
+    --black: #212529;
+}
+
 @font-face {
     font-family: 'Peep Title';
     src: url(fonts/OverObsessedGirlfriend.ttf);
@@ -45,16 +51,16 @@ body {
 }
 
 .color-violet {
-    color: #48079c;
+    color: var(--violet);
 }
 
 .color-pink {
-    color: #e246a1;
-    text-shadow: #212529 0.1rem 0 1rem;
+    color: var(--fuchsia);
+    text-shadow: var(--black) 0.1rem 0 1rem;
 }
 
 .violet-shadow {
-    text-shadow: #48079c 0.5rem 0 1.1rem;
+    text-shadow: var(--violet) 0.5rem 0 1.1rem;
 }
 
 .white-shadow {
@@ -70,7 +76,7 @@ body {
     padding-left: 0.5rem;
     background-color: #2b3138;
     height: 3.4rem;
-    border: 0.4rem outset #48079c;
+    border: 0.4rem outset var(--violet);
     border-radius: 1rem;
     opacity: 95%;
 }
@@ -83,7 +89,7 @@ body {
 }
 
 .header__nav__item a {
-    color: #e246a1;
+    color: var(--fuchsia);
     padding: 0.5rem;
     border-radius: 0.2rem;
     text-decoration: none;
@@ -113,12 +119,12 @@ h3 {
     margin-top: 3rem;
     margin-bottom: 5rem;
     opacity: 75%;
-    text-shadow: #e246a1 0.1rem 0 1rem;
+    text-shadow: var(--fuchsia) 0.1rem 0 1rem;
 }
 
 .albums__title {
-    color: #212529;
-    text-shadow: #e246a1 0.1rem 0 1rem;
+    color: var(--black);
+    text-shadow: var(--fuchsia) 0.1rem 0 1rem;
     font-family: 'Goth';
     font-size: 5rem;
     margin: 2rem 0rem 2rem 5rem;
@@ -140,13 +146,13 @@ h3 {
     width: 42rem;
     text-align: center;
     font-size: 1.8rem;
-    color: #212529;
+    color: var(--black);
 }
 
 .albums__select {
-    background: radial-gradient(#e246a1, #616263);
+    background: radial-gradient(var(--fuchsia), #616263);
     font-weight: bold;
-    color: #212529;
+    color: var(--black);
     border: 0.5rem;
     border-radius: 0.3rem;
     margin: 0rem 0rem 1.5rem 17.5rem;
@@ -154,21 +160,21 @@ h3 {
 
 .albums__select option {
     background-color: #000000d2;
-    color: #e246a1;
+    color: var(--fuchsia);
     font-weight: bold;
 }
 
 .albums__select option:checked {
-    background-color: #e246a1;
-    color: #212529;
+    background-color: var(--fuchsia);
+    color: var(--black);
     font-weight: bold;
 }
 
 .favorite-song {
-    background: radial-gradient(#e246a1, #616263);
-    color: #212529;
+    background: radial-gradient(var(--fuchsia), #616263);
+    color: var(--black);
     border-radius: 0.5rem;
-    border-color: #212529;
+    border-color: var(--black);
     font-weight: bold;
 }
 
@@ -180,7 +186,7 @@ footer h4 {
     margin-bottom: 1rem;
     opacity: 75%;
 
-    text-shadow: #e246a1 0.1rem 0 1rem;
+    text-shadow: var(--fuchsia) 0.1rem 0 1rem;
 }
 
 footer ul {
