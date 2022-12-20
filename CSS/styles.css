@@ -39,12 +39,10 @@ body {
 
 .header__heading {
     font-family: 'Peep Title';
-    font-size: 12rem;
+    font-size: 20rem;
     width: 70rem;
     padding: 1.5rem;
-    border: 1rem inset #2a0b53;
-    border-radius: 5rem;
-    margin: 5rem auto;
+    margin: 5rem auto 0;
     text-shadow: #000000 0.5rem 0 1.1rem;
     text-align: center;
     opacity: 0.75;
@@ -76,7 +74,7 @@ body {
     padding-left: 0.5rem;
     border: 0.4rem outset var(--violet);
     border-radius: 1rem;
-    margin: 1rem auto;
+    margin: 1rem auto 3rem;
     background-color: #2b3138;
     list-style: none;
     text-align: center;
@@ -116,29 +114,43 @@ body {
 
 h3 {
     font-family: 'Peep Title';
-    font-size: 7rem;
+    font-size: 8.5rem;
     margin-top: 3rem;
-    margin-bottom: 5rem;
     text-shadow: var(--fuchsia) 0.1rem 0 1rem;
     text-align: center;
     opacity: 75%;
 }
 
+.albums__list {
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+}
+
+.albums__list-album {
+    width: 32vw;
+    margin-top: 5rem;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
 .albums__title {
     font-family: 'Goth';
     font-size: 5rem;
-    margin: 2rem 0rem 2rem 5rem;
+    height: 16vh;
+    margin: 2rem 0rem;
     color: var(--black);
     text-shadow: var(--fuchsia) 0.1rem 0 1rem;
-}
-
-.albums__image {
-    margin-left: 10rem;
+    text-align: center;
+    display: flex;
+        align-items: center;
 }
 
 .albums__image__caption {
     font-size: 1.5rem;
-    margin-left: 10rem;
+    text-align: center;
     opacity: 60%;
 }
 
@@ -146,16 +158,21 @@ h3 {
     font-size: 1.8rem;
     font-weight: bold;
     width: 42rem;
-    margin: 3rem 0rem 1.5rem 10rem;
+    margin: 3rem 0rem 1.5rem;
     color: var(--black);
     text-align: center;
+}
+
+.albums_form {
+    margin-bottom: 3rem;
+    display: flex;
+        justify-content: center;
 }
 
 .albums__select {
     font-weight: bold;
     border: 0.5rem;
     border-radius: 0.3rem;
-    margin: 0rem 0rem 1.5rem 17.5rem;
     color: var(--black);
     background: radial-gradient(var(--fuchsia), #616263);
 }
@@ -163,7 +180,7 @@ h3 {
 .albums__select option {
     font-weight: bold;
     color: var(--fuchsia);
-    background-color: #000000d2;
+    background-color: #000000b4;
 }
 
 .albums__select option:checked {
@@ -172,7 +189,7 @@ h3 {
     background-color: var(--fuchsia);
 }
 
-.favorite-song {
+.albums__select__favorite-song {
     font-weight: bold;
     border-radius: 0.5rem;
     border-color: var(--black);
