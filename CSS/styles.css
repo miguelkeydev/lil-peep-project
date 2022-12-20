@@ -65,7 +65,7 @@ body {
 }
 
 .black-shadow {
-    text-shadow: var(--black) 0.1rem 0 1rem;
+    text-shadow: var(--black) 0.5rem 0rem 1.1rem;
 }
 
 .header__nav {
@@ -171,6 +171,7 @@ h3 {
 
 .albums__select {
     font-weight: bold;
+    margin-right: 1rem;
     border: 0.5rem;
     border-radius: 0.3rem;
     color: var(--black);
@@ -208,7 +209,9 @@ footer h4 {
 }
 
 footer ul {
-    text-align: center;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 }
 
 footer li {
@@ -219,7 +222,14 @@ footer li {
 
 footer a {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: .5rem;
     color: #000000d2;
     text-decoration: none;
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+}
+
+footer img {
+    margin-right: 1rem;
 }
